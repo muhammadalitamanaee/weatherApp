@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "paths": {
+    "@/*": ["./*"],
+    "@components/*": ["./stc/components/*"],
+    "@assets/*": ["./stc/assets/*"],
+    "@features/*": ["./stc/features/*"],
+    "@pages/*": ["./stc/pages/*"],
+    "@hooks/*": ["./stc/hooks/*"],
+    "@utils/*": ["./stc/utils/*"],
+    "@lib/*": ["./stc/lib/*"],
+    "@styles/*": ["./stc/styles/*"],
+    "@router/*": ["./stc/router/*"]
+  }
+}
